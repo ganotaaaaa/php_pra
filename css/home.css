@@ -1,0 +1,12 @@
+h1 {
+    color: red;
+}
+
+.todo-list {
+    margin-top: 40px;
+}
+
+.todo-list li {
+    margin-top: 10px;
+    border-bottom: 1px blue;
+}

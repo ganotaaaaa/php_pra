@@ -1,3 +1,8 @@
+<?php 
+    session_start();
+
+?>
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -13,8 +18,8 @@
         <input type="submit" value="追加">
     </form>
     
-    <ul>
-        <?php echo "<li>{$_POST['todo']}<li>" ?>
+    <ul class="todo-list">
+        <?php echo "<li>{$_POST['todo']}</li>" ?>
     </ul>
 </body>
 </html>

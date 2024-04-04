@@ -21,5 +21,12 @@
     <ul class="todo-list">
         <?php echo "<li>{$_POST['todo']}</li>" ?>
     </ul>
+    <a href=""></a>
+    <a href=""></a>
+    <a href=""></a>
+    <a href=""></a>
+    <p></p>
+    <p></p>
+    <p></p>
 </body>
 </html>
